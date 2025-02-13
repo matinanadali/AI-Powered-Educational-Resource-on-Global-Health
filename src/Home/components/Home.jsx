@@ -19,7 +19,7 @@ const Home = () => {
       }}
     >
       <Typography variant="h2" sx={{ maxWidth: "80%", paddingBottom: "2rem" }}>
-        Global Health: An AI-Powered Educational Resource
+         An AI-Powered Educational Resource on "Global Health"
       </Typography>
       {displayForm ? (
         <Form></Form>

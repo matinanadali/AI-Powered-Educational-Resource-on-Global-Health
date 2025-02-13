@@ -15,7 +15,7 @@ const Map = () => {
   useEffect(() => {
     // Assuming you're fetching data from a local file or an API
     const fetchLocations = async () => {
-      const response = await fetch("/public/locations.json");
+      const response = await fetch("locations.json");
       const data = await response.json();
       setLocations(data);
     };
