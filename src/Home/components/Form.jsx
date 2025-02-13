@@ -8,41 +8,40 @@ import {
 } from "@mui/material";
 import { useState } from "react";
 import { useGlobalContext } from "../../GlobalPrompt";
-import { useNavigate } from "react-router-dom"
+import { Link } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 const Form = () => {
   const [duration, setDuration] = useState("");
   const [age, setAge] = useState("");
   const [focusFields, setFocusFields] = useState([]);
 
-  const {globalPrompt, setGlobalPrompt} = useGlobalContext();
-
   const navigate = useNavigate();
+  const { globalPrompt, setGlobalPrompt } = useGlobalContext();
 
   const handleCheckboxChange = (field) => {
     setFocusFields((prev) =>
       prev.includes(field)
-        ? prev.filter((item) => item !== field) 
-        : [...prev, field] 
+        ? prev.filter((item) => item !== field)
+        : [...prev, field]
     );
   };
 
   const handleSubmit = () => {
     // Generate global prompt
-    let prompt = "The story should be no more than 80 words long."
+    let prompt = "The story should be no more than 80 words long.";
 
     if (age) {
-        prompt += " The target learner audience is " + age + " years old."
+      prompt += " The target learner audience is " + age + " years old.";
     }
     if (focusFields) {
-        prompt += " Where possible, focus on the following fields: "
-        for (let i = 0; i < focusFields.length; i++) {
-            prompt += focusFields[i] + ", ";
-        }
+      prompt += " Where possible, focus on the following fields: ";
+      for (let i = 0; i < focusFields.length; i++) {
+        prompt += focusFields[i] + ", ";
+      }
     }
     setGlobalPrompt(prompt);
-    console.log(prompt)
-    navigate("/app");
+    navigate("app");
   };
 
   return (
@@ -115,7 +114,7 @@ const Form = () => {
         onClick={() => handleSubmit()}
         sx={{ backgroundColor: "#ffb74d", color: "#293949" }}
       >
-        Start Learning!
+        <Link to="app">Start Learning!</Link>
       </Button>
     </Box>
   );
