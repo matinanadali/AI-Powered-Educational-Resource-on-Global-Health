@@ -1,5 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer } from "react-leaflet";
+import { Box } from '@mui/material';
+import background from "../../Assets/map.png";
 import "leaflet/dist/leaflet.css";
 import MapMarker from "./MapMarker";
 
@@ -22,7 +24,18 @@ const Map = () => {
   }, []);
 
   if (!locations || locations.length === 0) {
-    return <div>Loading...</div>;
+    return <Box
+    sx={{
+      width: "100vw",
+      height: "100vh",
+      background: `linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url(${background})`,
+      backgroundSize: "cover",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      flexDirection: "column",
+    }}
+  >Loading...</Box>
   }
   const position = [51.505, -0.09];
   const popupText = "Hello, I am a custom marker!";

@@ -24,13 +24,12 @@ const MapMarker = ({ location }) => {
   const title = location.title;
   const position = location.position;
 
-
   // Function to call the backend and generate text
   const handleGenerateText = async () => {
     setError(""); // Reset error state before the request
     try {
       // Sending prompt to the backend
-      const response = await fetch("http://localhost:3000/generate-text", {
+      const response = await fetch("https://ai-powered-educational-resource-on.onrender.com/generate-text", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
