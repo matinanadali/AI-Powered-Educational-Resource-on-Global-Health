@@ -1,4 +1,4 @@
-import background from "../../Assets/map.png";
+import background from "/Assets/map.png";
 import { Box, Typography, Button } from "@mui/material";
 import Form from "./Form";
 import { useState } from "react";

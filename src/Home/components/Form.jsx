@@ -114,7 +114,7 @@ const Form = () => {
         onClick={() => handleSubmit()}
         sx={{ backgroundColor: "#ffb74d", color: "#293949" }}
       >
-        <Link to="app">Start Learning!</Link>
+        <Link to="app" sx={{textDecoration: "none", color:"inherit"}}>Start Learning!</Link>
       </Button>
     </Box>
   );

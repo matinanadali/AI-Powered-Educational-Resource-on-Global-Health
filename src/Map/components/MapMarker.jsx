@@ -5,7 +5,7 @@ import 'leaflet/dist/leaflet.css';
 import { useGlobalContext } from "../../GlobalPrompt";
 
 const customIcon = new L.Icon({
-  iconUrl: '/src/Assets/marker.png', 
+  iconUrl: 'Assets/marker.png', 
   iconSize: [25, 30], 
   iconAnchor: [12, 41], 
   popupAnchor: [1, -30], 
