@@ -1,0 +1,248 @@
+[
+  {
+    "position": [41.9028, 12.4964],
+    "name": "Rome, Italy",
+    "title": "The Birth of Public Health in Ancient Rome",
+    "prompt": "Describe the role of ancient Rome in the development of public health practices, such as water sanitation and hygiene."
+  },
+  {
+    "position": [35.6762, 139.6503],
+    "name": "Tokyo, Japan",
+    "title": "Japan's Universal Health Insurance System",
+    "prompt": "Tell the story of Japan's early adoption of universal health insurance and its impact on the country's life expectancy."
+  },
+  {
+    "position": [39.9042, 116.4074],
+    "name": "Beijing, China",
+    "title": "The SARS Outbreak and Its Impact on Global Health",
+    "prompt": "Narrate the impact of the 2002-2003 SARS outbreak in Beijing and its lasting influence on global health protocols."
+  },
+  {
+    "position": [34.0522, -118.2437],
+    "name": "Los Angeles, United States",
+    "title": "Los Angeles and the AIDS Epidemic",
+    "prompt": "Discuss Los Angeles' role as an epicenter during the AIDS epidemic and the scientific breakthroughs that emerged from this period."
+  },
+  {
+    "position": [19.4326, -99.1332],
+    "name": "Mexico City, Mexico",
+    "title": "Mexico City's Response to the 2009 H1N1 Pandemic",
+    "prompt": "Narrate Mexico City's response to the 2009 H1N1 influenza pandemic and its role in shaping future pandemic preparedness."
+  },
+  {
+    "position": [48.8566, 2.3522],
+    "name": "Paris, France",
+    "title": "The Pasteur Institute and Vaccination",
+    "prompt": "Describe the founding of the Pasteur Institute in Paris and its groundbreaking contributions to vaccination and microbiology."
+  },
+  {
+    "position": [52.5200, 13.4050],
+    "name": "Berlin, Germany",
+    "title": "Robert Koch and the Foundations of Modern Epidemiology",
+    "prompt": "Explain how Berlin contributed to the development of modern epidemiology, especially through the work of Robert Koch."
+  },
+  {
+    "position": [31.7683, 35.2137],
+    "name": "Jerusalem, Israel",
+    "title": "Jerusalem’s Early Contributions to Medicine",
+    "prompt": "Tell the story of Jerusalem’s early contributions to medicine, particularly in the establishment of medical institutions like Hadassah."
+  },
+  {
+    "position": [40.7128, -74.0060],
+    "name": "New York City, United States",
+    "title": "New York City's Response to Cholera in the 19th Century",
+    "prompt": "Describe how New York City handled the cholera epidemics in the 19th century, shaping modern public health infrastructure."
+  },
+  {
+    "position": [55.7558, 37.6173],
+    "name": "Moscow, Russia",
+    "title": "Moscow's Role in Smallpox Eradication",
+    "prompt": "Discuss Moscow's role in the global eradication of smallpox and its contributions to the field of immunology."
+  },
+  {
+    "position": [39.9612, -82.9988],
+    "name": "Columbus, United States",
+    "title": "Columbus' Contribution to Cancer Research",
+    "prompt": "Narrate Columbus’ significance in cancer research, particularly with the establishment of the Ohio State University Comprehensive Cancer Center."
+  },
+  {
+    "position": [48.2082, 16.3738],
+    "name": "Vienna, Austria",
+    "title": "Vienna and the Birth of Psychoanalysis",
+    "prompt": "Tell the story of Vienna’s impact on psychiatric treatment, particularly with the work of Sigmund Freud and early psychoanalysis."
+  },
+  {
+    "position": [59.3293, 18.0686],
+    "name": "Stockholm, Sweden",
+    "title": "The Nobel Prize in Medicine: A Swedish Legacy",
+    "prompt": "Describe the founding of the Nobel Prize in Medicine in Stockholm and its ongoing impact on global medical research."
+  },
+  {
+    "position": [55.6761, 12.5683],
+    "name": "Copenhagen, Denmark",
+    "title": "Copenhagen’s Role in Universal Healthcare",
+    "prompt": "Narrate Copenhagen’s pioneering role in establishing universal healthcare in Denmark and its influence on social medicine."
+  },
+  {
+    "position": [40.7306, -73.9352],
+    "name": "Brooklyn, United States",
+    "title": "Brooklyn’s Public Health Research",
+    "prompt": "Tell the story of how Brooklyn became a major hub for public health research and policy in the 20th century."
+  },
+  {
+    "position": [19.0760, 72.8777],
+    "name": "Mumbai, India",
+    "title": "Mumbai’s Response to the 1994 Plague Outbreak",
+    "prompt": "Describe Mumbai’s experience with the 1994 plague outbreak and its significant health responses to combat the epidemic."
+  },
+  {
+    "position": [37.7749, -122.4194],
+    "name": "San Francisco, United States",
+    "title": "San Francisco's Role in HIV/AIDS Activism",
+    "prompt": "Discuss San Francisco’s early and impactful role in the fight against HIV/AIDS and the city's activism in the 1980s and 1990s."
+  },
+  {
+    "position": [47.6062, -122.3321],
+    "name": "Seattle, United States",
+    "title": "Seattle’s Health Innovations in Medical Technology",
+    "prompt": "Narrate Seattle’s health-focused innovations, especially in the field of medical technology and its role in environmental health."
+  },
+  {
+    "position": [39.8283, -98.5795],
+    "name": "Kansas, United States",
+    "title": "Kansas’ Mental Health Awareness Contributions",
+    "prompt": "Tell the story of Kansas' contributions to mental health awareness and treatment during the 20th century."
+  },
+  {
+    "position": [51.1657, 10.4515],
+    "name": "Germany",
+    "title": "Germany’s Vaccine Development Legacy",
+    "prompt": "Discuss Germany’s significant role in vaccine development, particularly with the work of Robert Koch and the tuberculosis vaccine."
+  },
+  {
+    "position": [40.7306, -73.9352],
+    "name": "New York City, United States",
+    "title": "The 1918 Flu Pandemic and Public Health Reforms",
+    "prompt": "Narrate the city’s battle against the 1918 flu pandemic, and how it shaped public health efforts in future pandemics."
+  },
+  {
+    "position": [34.0522, -118.2437],
+    "name": "Los Angeles, United States",
+    "title": "Los Angeles and the Health and Fitness Movement",
+    "prompt": "Discuss Los Angeles’ role as a global leader in health and fitness trends, and the city's influence on wellness culture."
+  },
+  {
+    "position": [35.6762, 139.6503],
+    "name": "Tokyo, Japan",
+    "title": "Japan's Health Insurance System and High Life Expectancy",
+    "prompt": "Describe how Japan’s health insurance system was established and its success in ensuring high life expectancy and healthcare for all."
+  },
+  {
+    "position": [37.9838, 23.7275],
+    "name": "Athens, Greece",
+    "title": "Hippocrates and Early Medicine in Athens",
+    "prompt": "Tell the story of the role Athens played in the development of early medicine, particularly with Hippocrates, the 'Father of Medicine.'"
+  },
+  {
+    "position": [34.0194, -118.4957],
+    "name": "Santa Monica, United States",
+    "title": "Santa Monica: The Center of Alternative Medicine",
+    "prompt": "Discuss the rise of wellness culture in Santa Monica and how the city became a center for alternative medicine and holistic health."
+  },
+  {
+    "position": [41.2044, 74.7669],
+    "name": "Ulaanbaatar, Mongolia",
+    "title": "Mongolia's Efforts to Combat Tuberculosis",
+    "prompt": "Describe Mongolia's efforts in addressing tuberculosis, a major health concern, and the country’s national health policies."
+  },
+  {
+    "position": [43.6532, -79.3832],
+    "name": "Toronto, Canada",
+    "title": "Toronto’s Role in SARS Response",
+    "prompt": "Narrate Toronto’s role in the early research and response to the 2003 SARS outbreak and its influence on global health response protocols."
+  },
+  {
+    "position": [40.7306, -73.9352],
+    "name": "Chicago, United States",
+    "title": "Chicago’s Contributions to Urban Public Health",
+    "prompt": "Describe the significant public health research conducted in Chicago in the early 20th century, particularly in urban sanitation and disease prevention."
+  },
+  {
+    "position": [32.7157, -117.1611],
+    "name": "San Diego, United States",
+    "title": "San Diego's Health Initiatives Against Infectious Diseases",
+    "prompt": "Tell the story of San Diego's health initiatives in combating infectious diseases in the late 20th century."
+  },
+  {
+    "position": [55.9533, -3.1883],
+    "name": "Edinburgh, Scotland",
+    "title": "Edinburgh's Pioneering Work in Surgery",
+    "prompt": "Discuss the pioneering medical work of Scottish physicians in Edinburgh, including the founding of the Royal Infirmary and the study of surgery."
+  },
+  {
+    "position": [27.7172, 85.3240],
+    "name": "Kathmandu, Nepal",
+    "title": "Kathmandu’s Efforts in Tuberculosis Treatment",
+    "prompt": "Tell the story of Kathmandu’s efforts in improving healthcare services in a developing country, focusing on tuberculosis treatment."
+  },
+  {
+    "position": [41.0151, 28.9794],
+    "name": "Istanbul, Turkey",
+    "title": "Istanbul's Historical Role in Medicine",
+    "prompt": "Narrate Istanbul's historical role in medical practices, particularly during the Ottoman Empire and its influence on Western medicine."
+  },
+  {
+    "position": [1.3521, 103.8198],
+    "name": "Singapore",
+    "title": "Singapore's Innovation in Disease Control",
+    "prompt": "Describe Singapore's success in managing its public health system, especially with disease control, and its innovation in healthcare technology."
+  },
+  {
+    "position": [12.9716, 77.5946],
+    "name": "Bangalore, India",
+    "title": "Bangalore's Leadership in Biotechnology",
+    "prompt": "Narrate how Bangalore became a leader in biotechnology and medical research in India, contributing to global health advancements."
+  },
+  {
+    "position": [39.7392, -104.9903],
+    "name": "Denver, United States",
+    "title": "Denver’s Role in Medical Marijuana Research",
+    "prompt": "Discuss how Denver became a hub for health research in the fields of medical marijuana and its impact on healthcare reform in the U.S."
+  },
+  {
+    "position": [51.5074, -0.1278],
+    "name": "London, United Kingdom",
+    "title": "The Development of Public Health in Victorian London",
+    "prompt": "Tell the story of the development of public health systems in London during the Victorian era, particularly with sanitation reforms."
+  },
+  {
+    "position": [55.7558, 37.6173],
+    "name": "Moscow, Russia",
+    "title": "Moscow's Role in Psychiatry and Mental Health",
+    "prompt": "Narrate Moscow's contributions to the global understanding of mental health and psychiatry during the 20th century."
+  },
+  {
+    "position": [43.65107, -79.347015],
+    "name": "Toronto, Canada",
+    "title": "Toronto’s Pivotal Role in the HIV/AIDS Crisis",
+    "prompt": "Describe the pivotal role Toronto played in the development of global public health responses to the HIV/AIDS crisis in the 1980s."
+  },
+  {
+    "position": [-25.2744, 133.7751],
+    "name": "Australia",
+    "title": "Australia's Contribution to Public Health and Vaccination",
+    "prompt": "Describe how Australia's contributions to immunization programs and public health policy shaped global health practices, particularly in the fight against infectious diseases."
+  },
+  {
+    "position": [-1.2864, 36.8172],
+    "name": "Nairobi, Kenya",
+    "title": "Nairobi’s Role in Combating Malaria",
+    "prompt": "Narrate Kenya's strategies in combating malaria, focusing on Nairobi's role in the development of new treatments and prevention methods."
+  },
+  {
+    "position": [-34.6037, -58.3816],
+    "name": "Buenos Aires, Argentina",
+    "title": "Buenos Aires and the Development of Healthcare in Latin America",
+    "prompt": "Tell the story of Buenos Aires' efforts to improve healthcare infrastructure in Latin America, particularly its role in fighting epidemics such as dengue fever."
+  }
+]
