@@ -3,6 +3,7 @@ import {
   Button,
   Typography,
   Checkbox,
+  checkboxClasses,
   FormControlLabel,
   TextField,
 } from "@mui/material";
@@ -100,7 +101,10 @@ const Form = () => {
               <Checkbox
                 checked={focusFields.includes(field)}
                 onChange={() => handleCheckboxChange(field)}
-                sx={{ color: "#eae2d4" }}
+                sx={{ color: "#ffb74d",  [`&, &.${checkboxClasses.checked}`]: {
+                  color: "#ffb74d",
+                },}}
+               
               />
             }
             label={field}
