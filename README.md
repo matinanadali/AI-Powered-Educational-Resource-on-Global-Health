@@ -12,8 +12,8 @@ The app is powered by the GOOGLE GEMINI API, which generates personalized learni
 The application is still in its early stages, and there is room for significant improvement (see the TODO section below). Additionally, it currently utilizes the free tier of the GEMINI API, which limits the number of requests.
 
 #### TODO
-- Make the application responsive.
-- Organize the code into modules and files.
-- Add a "Back to Home" button.
-- Improve colors and styling.
-- Incorporate "activity duration."
+- ~~Make the application responsive~~.
+- Organize the code into modules and files (a lot more work added here...).
+- Add a "Back to Home" button (not a priority right now).
+- ~~Improve colors and styling~~.
+- Incorporate "activity duration (probably just add a clock or something like this).
