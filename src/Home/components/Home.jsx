@@ -8,6 +8,7 @@ const Home = () => {
   return (
     <Box
       sx={{
+        maxWidth: "100vw",
         width: "100vw",
         height: "100vh",
         background: `linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url(${background})`,
