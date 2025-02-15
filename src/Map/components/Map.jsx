@@ -14,6 +14,8 @@ import MapMarker from "./MapMarker";
 
 const Map = () => {
   const mapRef = useRef(null);
+  const latitude = 40;
+  const longitude = 0;
 
   const [locations, setLocations] = useState([]);
 
