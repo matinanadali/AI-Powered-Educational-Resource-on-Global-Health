@@ -62,7 +62,7 @@ const Form = () => {
 
       <TextField
         fullWidth
-        label="Activity Duration"
+        label="Activity Duration (in minutes)"
         type="number"
         value={duration}
         onChange={(e) => setDuration(e.target.value)}
