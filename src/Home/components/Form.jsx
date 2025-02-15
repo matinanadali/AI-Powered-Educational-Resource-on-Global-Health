@@ -49,9 +49,9 @@ const Form = () => {
     <Box
       sx={{
         backgroundColor: "#293949",
-        padding: 4,
+        padding: "1.5rem",
         borderRadius: 2,
-        width: "300px",
+        width: {xs: "70%", sm : "70%", md: "400px", lg: "400px"},
         display: "flex",
         flexDirection: "column",
       }}

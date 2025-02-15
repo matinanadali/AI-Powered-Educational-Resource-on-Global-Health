@@ -27,7 +27,7 @@ const Map = () => {
     return <Box
     sx={{
       width: "100vw",
-      height: "100vh",
+      maxHeight: "100%",
       background: `linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url(${background})`,
       backgroundSize: "cover",
       display: "flex",

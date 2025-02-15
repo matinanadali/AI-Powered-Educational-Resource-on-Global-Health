@@ -3,9 +3,9 @@ import Map from "./Map/components/Map";
 import Home from "./Home/components/Home";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import { GlobalProvider } from "./GlobalPrompt";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { createTheme, ThemeProvider, responsiveFontSizes } from "@mui/material/styles";
 
-const theme = createTheme({
+let theme = createTheme({
   components: {
     MuiTextField: {
       styleOverrides: {
@@ -36,6 +36,8 @@ const theme = createTheme({
     },
   },
 });
+
+theme = responsiveFontSizes(theme);
 
 function App() {
   return (
