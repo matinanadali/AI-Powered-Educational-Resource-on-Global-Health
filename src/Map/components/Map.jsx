@@ -4,22 +4,21 @@ import { Box } from "@mui/material";
 import background from "/Assets/map.png";
 import "leaflet/dist/leaflet.css";
 import MapMarker from "./MapMarker";
-import Header from "./Header"
-
-const maxBounds = L.latLngBounds(
-  L.latLng(-80, 180), 
-  L.latLng(90, -180) 
-);
+import Header from "./Header";
 
 const Map = () => {
-  const mapRef = useRef(null);
+
+  // Vertical margin to center map
   const latitude = 40;
   const longitude = 0;
+
+  // To avoid wrapping around the globe
+  const maxBounds = L.latLngBounds(L.latLng(-80, 180), L.latLng(90, -180));
 
   const [locations, setLocations] = useState([]);
 
   useEffect(() => {
-    // Assuming you're fetching data from a local file or an API
+    // Fetch marker locations from local file
     const fetchLocations = async () => {
       const response = await fetch("locations.json");
       const data = await response.json();
@@ -30,6 +29,7 @@ const Map = () => {
   }, []);
 
   if (!locations || locations.length === 0) {
+    // Display loading page
     return (
       <Box
         sx={{
@@ -50,31 +50,29 @@ const Map = () => {
 
   return (
     <>
-    <Header></Header>
-    <MapContainer
-      center={[latitude, longitude]}
-      zoom={2}
-      ref={mapRef}
-      style={{ height: "85vh", width: "100vw" }}
-      zoomControl={false}
-      scrollWheelZoom={false}
-      doubleClickZoom={false}
-      touchZoom={false}
-      worldCopyJump={false}
-      continuousWorld={false}
-      noWrap={true}
-      bounceAtZoomLimits={true}
-      maxBounds={maxBounds}
-    >
-      
-      <TileLayer
-        attribution="Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
-        url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-      />
-      {locations.map((location, index) => (
-        <MapMarker location={location} key={index}></MapMarker>
-      ))}
-    </MapContainer>
+      <Header></Header>
+      <MapContainer
+        center={[latitude, longitude]}
+        zoom={2}
+        style={{ height: "85vh", width: "100vw" }}
+        zoomControl={false}
+        scrollWheelZoom={false}
+        doubleClickZoom={false}
+        touchZoom={false}
+        worldCopyJump={false}
+        continuousWorld={false}
+        noWrap={true}
+        bounceAtZoomLimits={true}
+        maxBounds={maxBounds}
+      >
+        <TileLayer
+          attribution="Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+          url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+        />
+        {locations.map((location, index) => (
+          <MapMarker location={location} key={index}></MapMarker>
+        ))}
+      </MapContainer>
     </>
   );
 };

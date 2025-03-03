@@ -32,9 +32,12 @@ const Form = () => {
     // Generate global prompt
     let prompt = "The story should be no more than 80 words long.";
 
+    // Add age parameter
     if (age) {
       prompt += " The target learner audience is " + age + " years old.";
     }
+
+    // Add focus fields
     if (focusFields) {
       prompt += " Where possible, focus on the following fields: ";
       for (let i = 0; i < focusFields.length; i++) {
@@ -42,6 +45,7 @@ const Form = () => {
       }
     }
     setGlobalPrompt(prompt);
+
     navigate("app");
   };
 
@@ -51,7 +55,7 @@ const Form = () => {
         backgroundColor: "#293949",
         padding: "1.5rem",
         borderRadius: 2,
-        width: {xs: "70%", sm : "70%", md: "400px", lg: "400px"},
+        width: { xs: "70%", sm: "70%", md: "400px", lg: "400px" },
         display: "flex",
         flexDirection: "column",
       }}
@@ -60,6 +64,7 @@ const Form = () => {
         Let's Design Your Course!
       </Typography>
 
+      {/* Duration TextField */}
       <TextField
         fullWidth
         label="Activity Duration (in minutes)"
@@ -73,6 +78,7 @@ const Form = () => {
         }}
       />
 
+      {/* Age TextField */}
       <TextField
         fullWidth
         label="Learners' Age"
@@ -86,6 +92,7 @@ const Form = () => {
         }}
       />
 
+      {/* Focus Fields Selection Box */}
       <Box sx={{ display: "flex", flexWrap: "wrap" }}>
         {[
           "Biology",
@@ -101,10 +108,12 @@ const Form = () => {
               <Checkbox
                 checked={focusFields.includes(field)}
                 onChange={() => handleCheckboxChange(field)}
-                sx={{ color: "#ffb74d",  [`&, &.${checkboxClasses.checked}`]: {
+                sx={{
                   color: "#ffb74d",
-                },}}
-               
+                  [`&, &.${checkboxClasses.checked}`]: {
+                    color: "#ffb74d",
+                  },
+                }}
               />
             }
             label={field}
@@ -112,13 +121,16 @@ const Form = () => {
           />
         ))}
       </Box>
-
+      
+      {/* Submit Button */}
       <Button
         variant="contained"
         onClick={() => handleSubmit()}
         sx={{ backgroundColor: "#ffb74d", color: "#293949" }}
       >
-        <Link to="app" sx={{textDecoration: "none", color:"inherit"}}>Start Learning!</Link>
+        <Link to="app" sx={{ textDecoration: "none", color: "inherit" }}>
+          Start Learning!
+        </Link>
       </Button>
     </Box>
   );
