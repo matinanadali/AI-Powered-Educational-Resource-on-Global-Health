@@ -13,7 +13,7 @@ The application is still in its early stages, and there is room for significant 
 
 #### TODO
 - ~~Make the application responsive~~.
-- Organize the code into modules and files (a lot more work added here...).
-- Add a "Back to Home" button (not a priority right now).
+- Organize the code into modules and files.
+- Add a "Back to Home" button.
 - ~~Improve colors and styling~~.
-- Incorporate "activity duration (probably just add a clock or something like this).
+- Incorporate "activity duration".
