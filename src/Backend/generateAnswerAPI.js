@@ -26,7 +26,7 @@ app.post("/generate-text", async (req, res) => {
 
   try {
     // 2. Select the model
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-3.6-flash" });
 
     // 3. Generate response using the correct prompt variable name
     const result = await model.generateContent(prompt);
